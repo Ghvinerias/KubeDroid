@@ -26,8 +26,8 @@ android {
         applicationId = "com.kubedroid.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -73,6 +73,9 @@ android {
     }
 
     packaging {
+        jniLibs {
+            useLegacyPackaging = false
+        }
         resources {
             excludes += "META-INF/DEPENDENCIES"
             excludes += "META-INF/LICENSE.md"
@@ -131,4 +134,10 @@ dependencies {
     androidTestImplementation(libs.ui.test.junit4)
     debugImplementation(libs.ui.tooling)
     debugImplementation(libs.ui.test.manifest)
+}
+
+tasks.matching { it.name == "bundleRelease" }.configureEach {
+    doLast {
+        println("Native debug symbols at: app/build/outputs/native-debug-symbols/release/")
+    }
 }
