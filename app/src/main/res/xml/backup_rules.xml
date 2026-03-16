@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <exclude domain="sharedpref" path="secure_credentials.xml"/>
+    <exclude domain="sharedpref" path="widget_sync_preferences.xml"/>
+    <exclude domain="sharedpref" path="widget_ui_preferences.xml"/>
+    <exclude domain="database" path="kubedroid-cache.db"/>
+    <exclude domain="database" path="kubedroid-cache.db-wal"/>
+    <exclude domain="database" path="kubedroid-cache.db-shm"/>
+    <exclude domain="database" path="crd.db"/>
+    <exclude domain="database" path="crd.db-wal"/>
+    <exclude domain="database" path="crd.db-shm"/>
+    <exclude domain="file" path="kube"/>
+    <exclude domain="file" path="kube/config"/>
+</full-backup-content>

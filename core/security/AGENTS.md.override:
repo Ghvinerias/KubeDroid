@@ -1,0 +1,7 @@
+# Security Module — OVERRIDE (Highest Priority)
+
+CRITICAL: This module handles user credentials.
+- NO changes without explicit human review and approval
+- ALL new functions require a threat model comment
+- Run security-specific tests: ./gradlew :core:security:test
+- After any change here, notify the security review channel

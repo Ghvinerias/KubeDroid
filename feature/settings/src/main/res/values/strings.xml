@@ -1,0 +1,102 @@
+<resources>
+    <string name="cluster_list_title">Clusters</string>
+    <string name="cluster_list_empty">No clusters configured</string>
+    <string name="cluster_list_item_cd">Select cluster %1$s</string>
+    <string name="cluster_list_add_fab_cd">Add cluster</string>
+    <string name="cluster_list_delete_label">Delete</string>
+    <string name="cluster_list_delete_cd">Delete cluster %1$s</string>
+    <string name="cluster_list_active_badge">Active</string>
+    <string name="cluster_list_context_label">context</string>
+    <string name="cluster_list_pods_button_cd">Open pods and namespaces</string>
+
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_empty">No clusters available</string>
+    <string name="dashboard_error">Unable to load dashboard</string>
+    <string name="dashboard_add_cluster_fab_cd">Add cluster</string>
+    <string name="dashboard_pull_to_refresh_cd">Pull to refresh cluster dashboard</string>
+    <string name="dashboard_cluster_card_cd">Open cluster %1$s resources</string>
+    <string name="dashboard_health_healthy">Healthy</string>
+    <string name="dashboard_health_degraded">Degraded</string>
+    <string name="dashboard_health_unreachable">Unreachable</string>
+    <string name="dashboard_health_indicator_cd">Cluster health %1$s</string>
+    <string name="dashboard_pod_count">Pods: %1$d</string>
+    <string name="dashboard_node_count">Nodes: %1$d</string>
+    <string name="dashboard_cpu_usage">CPU %1$d%%</string>
+    <string name="dashboard_memory_usage">Memory %1$d%%</string>
+    <string name="dashboard_warning_badge">%1$d warnings</string>
+
+    <string name="add_cluster_title">Add Cluster</string>
+    <string name="add_cluster_mode_kubeconfig">Kubeconfig</string>
+    <string name="add_cluster_mode_manual">Manual</string>
+    <string name="add_cluster_mode_kubeconfig_cd">Use kubeconfig input mode</string>
+    <string name="add_cluster_mode_manual_cd">Use manual server and token input mode</string>
+    <string name="add_cluster_kubeconfig_label">Kubeconfig</string>
+    <string name="add_cluster_kubeconfig_placeholder">Paste kubeconfig YAML</string>
+    <string name="add_cluster_kubeconfig_field_cd">Kubeconfig input</string>
+    <string name="add_cluster_server_label">Server URL</string>
+    <string name="add_cluster_server_placeholder">https://cluster.example.com</string>
+    <string name="add_cluster_server_field_cd">Cluster server URL</string>
+    <string name="add_cluster_token_label">Bearer token</string>
+    <string name="add_cluster_token_placeholder">Paste token</string>
+    <string name="add_cluster_token_field_cd">Cluster token</string>
+    <string name="add_cluster_insecure_tls_toggle_label">Allow insecure TLS (skip certificate verification)</string>
+    <string name="add_cluster_insecure_tls_toggle_cd">Allow insecure TLS toggle</string>
+    <string name="add_cluster_insecure_tls_warning_title">Security warning</string>
+    <string name="add_cluster_insecure_tls_warning_message">Warning: Disabling TLS verification exposes your connection to man-in-the-middle attacks. Only use this on trusted private networks.</string>
+    <string name="add_cluster_insecure_tls_warning_confirm">Enable anyway</string>
+    <string name="add_cluster_insecure_tls_warning_dismiss">Cancel</string>
+    <string name="add_cluster_cancel_button">Cancel</string>
+    <string name="add_cluster_cancel_button_cd">Cancel adding cluster</string>
+    <string name="add_cluster_save_button">Save</string>
+    <string name="add_cluster_save_button_cd">Save cluster configuration</string>
+    <string name="add_cluster_connect_button">Connect</string>
+    <string name="add_cluster_connect_button_cd">Connect to cluster</string>
+
+    <string name="connection_state_disconnected">Disconnected</string>
+    <string name="connection_state_connecting">Connecting to %1$s</string>
+    <string name="connection_state_connected">Connected to %1$s</string>
+    <string name="connection_state_failed">Failed to connect to %1$s</string>
+    <string name="connection_state_failed_no_reason">Unknown connection error</string>
+    <string name="connection_disconnect_button">Disconnect</string>
+    <string name="connection_disconnect_button_cd">Disconnect from cluster</string>
+
+    <string name="settings_title">Settings</string>
+
+    <string name="settings_appearance_title">Appearance</string>
+    <string name="settings_theme_system">System</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_oled_black">OLED Black</string>
+
+    <string name="settings_behaviour_title">Behaviour</string>
+    <string name="settings_default_namespace_title">Default namespace</string>
+    <string name="settings_default_namespace_label">Namespace</string>
+    <string name="settings_log_buffer_title">Log buffer</string>
+    <string name="settings_log_buffer_option">%1$d lines</string>
+    <string name="settings_metrics_interval_title">Metrics interval</string>
+    <string name="settings_metrics_interval_option">%1$d sec</string>
+
+    <string name="settings_security_title">Security</string>
+    <string name="settings_biometric_lock_title">Biometric lock</string>
+    <string name="settings_biometric_lock_summary">Require biometrics to reveal protected data</string>
+
+    <string name="settings_data_title">Data</string>
+    <string name="settings_clear_cache_title">Clear cache</string>
+    <string name="settings_clear_cache_summary">Current cache size: %1$s</string>
+    <string name="settings_clear_cache_action">Clear</string>
+    <string name="settings_clear_cache_confirm_title">Clear cached data?</string>
+    <string name="settings_clear_cache_confirm_message">This will remove local cache and force data to reload.</string>
+    <string name="settings_clear_cache_confirm_action">Clear cache</string>
+    <string name="settings_clear_cache_cancel_action">Cancel</string>
+    <string name="settings_export_logs_title">Export logs</string>
+    <string name="settings_export_logs_summary">Generate a support log bundle</string>
+    <string name="settings_deploy_manifest_action">Deploy YAML</string>
+    <string name="settings_deploy_manifest_title">Deploy YAML manifest</string>
+    <string name="settings_deploy_manifest_summary">Apply a new resource manifest to the cluster</string>
+
+    <string name="settings_about_title">About</string>
+    <string name="settings_version_title">Version</string>
+    <string name="settings_build_title">Build</string>
+    <string name="settings_open_source_licenses_title">Open source licenses</string>
+    <string name="settings_open_source_licenses_summary">View third-party license notices</string>
+</resources>

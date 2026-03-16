@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="network_screen_padding">16dp</dimen>
+    <dimen name="network_section_spacing">12dp</dimen>
+    <dimen name="network_item_padding">12dp</dimen>
+    <dimen name="network_row_spacing">8dp</dimen>
+    <dimen name="network_tree_indent">16dp</dimen>
+</resources>

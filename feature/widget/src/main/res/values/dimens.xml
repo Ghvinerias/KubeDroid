@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_padding">12dp</dimen>
+    <dimen name="widget_corner_radius">16dp</dimen>
+    <dimen name="widget_section_spacing">8dp</dimen>
+    <dimen name="widget_inline_spacing">8dp</dimen>
+
+    <dimen name="widget_badge_corner_radius">12dp</dimen>
+    <dimen name="widget_badge_horizontal_padding">8dp</dimen>
+    <dimen name="widget_badge_vertical_padding">3dp</dimen>
+
+    <dimen name="widget_cluster_name_text_size">16sp</dimen>
+    <dimen name="widget_metric_text_size">14sp</dimen>
+    <dimen name="widget_subtitle_text_size">12sp</dimen>
+    <dimen name="widget_badge_text_size">11sp</dimen>
+    <dimen name="widget_health_dot_size">18sp</dimen>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_background">#FFF2F6F9</color>
+    <color name="widget_text_primary">#FF111418</color>
+    <color name="widget_text_secondary">#FF5C6670</color>
+
+    <color name="widget_warning_badge_background">#FFF9D4D4</color>
+    <color name="widget_warning_badge_text">#FF701E1E</color>
+
+    <color name="widget_health_healthy">#FF1E7D45</color>
+    <color name="widget_health_degraded">#FFB8751A</color>
+    <color name="widget_health_unreachable">#FFB3261E</color>
+</resources>

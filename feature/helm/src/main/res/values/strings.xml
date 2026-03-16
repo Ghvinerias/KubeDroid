@@ -1,0 +1,39 @@
+<resources>
+    <string name="helm_list_title">Helm Releases</string>
+    <string name="helm_list_empty">No Helm releases found</string>
+    <string name="helm_two_pane_select_release">Select a release to view details.</string>
+
+    <string name="helm_release_chart_value">Chart: %1$s</string>
+    <string name="helm_release_version_value">Version: %1$s</string>
+    <string name="helm_release_last_deployed_value">Last deployed: %1$s</string>
+
+    <string name="helm_release_status_deployed">Deployed</string>
+    <string name="helm_release_status_failed">Failed</string>
+    <string name="helm_release_status_pending">Pending</string>
+    <string name="helm_release_status_superseded">Superseded</string>
+    <string name="helm_release_status_uninstalled">Uninstalled</string>
+    <string name="helm_release_status_uninstalling">Uninstalling</string>
+    <string name="helm_release_status_unknown">Unknown</string>
+
+    <string name="helm_detail_tab_info">Info</string>
+    <string name="helm_detail_tab_history">History</string>
+    <string name="helm_detail_tab_manifest">Manifest</string>
+    <string name="helm_detail_info_empty">No release information available</string>
+    <string name="helm_detail_history_empty">No revision history available</string>
+    <string name="helm_detail_manifest_empty">No manifest available</string>
+    <string name="helm_detail_info_namespace">Namespace</string>
+    <string name="helm_detail_info_chart">Chart</string>
+    <string name="helm_detail_info_chart_version">Chart Version</string>
+    <string name="helm_detail_info_app_version">App Version</string>
+    <string name="helm_detail_info_status">Status</string>
+
+    <string name="helm_rollback_dialog_title">Rollback %1$s</string>
+    <string name="helm_rollback_dialog_message">Select a revision to rollback to.</string>
+    <string name="helm_rollback_dialog_empty">No revisions available for rollback</string>
+    <string name="helm_rollback_dialog_confirm">Rollback</string>
+    <string name="helm_rollback_dialog_cancel">Cancel</string>
+
+    <string name="helm_revision_title">Revision %1$d</string>
+
+    <string name="helm_value_unknown">Unknown</string>
+</resources>

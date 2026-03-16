@@ -1,0 +1,26 @@
+KubeDroid brings Kubernetes operations to Android with a fast, touch-friendly workflow inspired by terminal tools.
+
+Manage production and development clusters from your phone or tablet without carrying a laptop.
+
+What you can do with KubeDroid:
+- Connect to one or more clusters using kubeconfig contexts
+- Browse namespaces and resources with responsive, native UI screens
+- Inspect pod health, status, labels, annotations, and events
+- Stream pod logs and quickly troubleshoot failures on the go
+- Open remote exec sessions for shell-level debugging
+- View deployments and monitor rollout state
+- Inspect nodes and key cluster infrastructure details
+- Work with common Kubernetes objects from one mobile app
+
+Built for real-world operations:
+- Native Android app built with Kotlin and Jetpack Compose
+- Smooth navigation optimized for both phones and larger screens
+- Modern architecture for reliability and maintainability
+- No account required to start using your own clusters
+
+Privacy and security first:
+- No analytics, no telemetry, no ad SDKs
+- No Kubernetes credentials are sent to external servers
+- Credentials and configuration stay on your device
+
+KubeDroid is designed for SREs, platform engineers, and developers who need practical Kubernetes visibility and control anywhere.

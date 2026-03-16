@@ -1,0 +1,42 @@
+<resources>
+    <string name="onboarding_title">Welcome to KubeDroid</string>
+    <string name="onboarding_logo_text">KD</string>
+    <string name="onboarding_tagline">Kubernetes control from your pocket.</string>
+    <string name="onboarding_feature_one">Browse pods, events, and nodes in one place.</string>
+    <string name="onboarding_feature_two">Use logs, exec, and port-forward workflows on mobile.</string>
+    <string name="onboarding_feature_three">Track rollout, network, and storage health quickly.</string>
+
+    <string name="onboarding_continue">Continue</string>
+
+    <string name="onboarding_import_title">Import kubeconfig</string>
+    <string name="onboarding_import_option_paste">Paste text</string>
+    <string name="onboarding_import_option_file">Pick file</string>
+    <string name="onboarding_import_option_qr">Scan QR</string>
+    <string name="onboarding_import_placeholder">This import method will be connected in a follow-up step. You can continue with paste text now.</string>
+    <string name="onboarding_kubeconfig_label">Kubeconfig</string>
+    <string name="onboarding_kubeconfig_placeholder">Paste kubeconfig YAML</string>
+    <string name="onboarding_save_kubeconfig">Save kubeconfig</string>
+
+    <string name="onboarding_test_connection_description">Run a live connection check before entering the dashboard.</string>
+    <string name="onboarding_test_connection">Test connection</string>
+    <string name="onboarding_connection_connecting">Connecting to %1$s
+This can take a few seconds.</string>
+    <string name="onboarding_connection_success">Connected to %1$s successfully.</string>
+    <string name="onboarding_connection_failed">Connection failed: %1$s</string>
+    <string name="onboarding_connection_failed_generic">Unknown error</string>
+
+    <string name="onboarding_done_title">Setup complete</string>
+    <string name="onboarding_done_summary">Connected cluster: %1$s</string>
+    <string name="onboarding_done_server">API server: %1$s</string>
+    <string name="onboarding_done_unknown_cluster">Unknown cluster</string>
+    <string name="onboarding_finish">Enter app</string>
+
+    <string name="coach_mark_next">Next</string>
+    <string name="coach_mark_finish">Got it</string>
+    <string name="coach_mark_dashboard_title">Cluster dashboard</string>
+    <string name="coach_mark_dashboard_description">Use pull-to-refresh to update health and workload counts.</string>
+    <string name="coach_mark_add_cluster_title">Add cluster</string>
+    <string name="coach_mark_add_cluster_description">Tap the add button to import another context or token-based cluster.</string>
+    <string name="coach_mark_bottom_nav_title">Switch modules</string>
+    <string name="coach_mark_bottom_nav_description">Use the bottom tabs to jump between Pods, Events, Deployments, and more.</string>
+</resources>

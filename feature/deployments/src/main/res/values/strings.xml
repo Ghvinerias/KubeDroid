@@ -1,0 +1,68 @@
+<resources>
+    <string name="deployment_list_title">Deployments</string>
+    <string name="deployment_list_refresh_cd">Refresh deployments</string>
+    <string name="deployment_list_empty">No deployments found</string>
+    <string name="deployment_list_error">Unable to load deployments</string>
+    <string name="deployment_list_replica_summary">%1$d/%2$d ready</string>
+    <string name="deployment_list_observed_generation">gen %1$d</string>
+
+    <string name="deployment_detail_title">%1$s</string>
+    <string name="deployment_detail_back_cd">Back</string>
+    <string name="deployment_detail_pause_cd">Pause rollout</string>
+    <string name="deployment_detail_resume_cd">Resume rollout</string>
+    <string name="deployment_detail_scale_cd">Scale deployment</string>
+    <string name="deployment_detail_tab_overview">Overview</string>
+    <string name="deployment_detail_tab_rollout_history">Rollout History</string>
+    <string name="deployment_detail_desired_replicas">Desired replicas</string>
+    <string name="deployment_detail_ready_replicas">Ready replicas</string>
+    <string name="deployment_detail_updated_replicas">Updated replicas</string>
+    <string name="deployment_detail_available_replicas">Available replicas</string>
+    <string name="deployment_detail_observed_generation">Observed generation</string>
+    <string name="deployment_detail_unknown_value">Unknown</string>
+    <string name="deployment_detail_scale_button">Scale</string>
+
+    <string name="deployment_scale_dialog_title">Scale deployment</string>
+    <string name="deployment_scale_dialog_decrease_cd">Decrease replicas</string>
+    <string name="deployment_scale_dialog_increase_cd">Increase replicas</string>
+    <string name="deployment_scale_dialog_confirm">Apply</string>
+    <string name="deployment_scale_dialog_cancel">Cancel</string>
+
+    <string name="rollout_history_empty">No rollout history found</string>
+    <string name="rollout_history_error">Unable to load rollout history</string>
+    <string name="rollout_history_retry">Retry</string>
+    <string name="rollout_history_revision">Revision %1$d</string>
+    <string name="rollout_history_change_cause">Cause: %1$s</string>
+    <string name="rollout_history_change_cause_unknown">Unknown</string>
+    <string name="rollout_history_created_at">Created: %1$s</string>
+    <string name="rollout_history_created_at_unknown">Unknown</string>
+    <string name="rollout_history_rollback">Rollback</string>
+
+    <string name="deployment_action_scale_success">Deployment scaled successfully</string>
+    <string name="deployment_action_pause_success">Rollout paused</string>
+    <string name="deployment_action_resume_success">Rollout resumed</string>
+    <string name="deployment_action_rollback_success">Rollback completed</string>
+
+    <string name="deployment_action_scale_invalid_replicas">Replica count must be 0 or greater</string>
+    <string name="deployment_action_scale_not_found">Deployment not found for scaling</string>
+    <string name="deployment_action_scale_forbidden">Scaling forbidden by cluster policy</string>
+    <string name="deployment_action_scale_conflict">Scaling conflict. Retry with latest state</string>
+
+    <string name="deployment_action_pause_not_found">Deployment not found for pause</string>
+    <string name="deployment_action_pause_forbidden">Pause forbidden by cluster policy</string>
+    <string name="deployment_action_pause_conflict">Pause conflict. Retry with latest state</string>
+
+    <string name="deployment_action_resume_not_found">Deployment not found for resume</string>
+    <string name="deployment_action_resume_forbidden">Resume forbidden by cluster policy</string>
+    <string name="deployment_action_resume_conflict">Resume conflict. Retry with latest state</string>
+
+    <string name="deployment_action_rollback_not_found">Deployment not found for rollback</string>
+    <string name="deployment_action_rollback_forbidden">Rollback forbidden by cluster policy</string>
+    <string name="deployment_action_rollback_conflict">Rollback conflict. Retry with latest state</string>
+
+    <string name="deployment_action_generic_failure">Action failed. Please retry</string>
+    <string name="stale_data_banner_title">Showing cached data</string>
+    <string name="stale_data_banner_message">Age: %1$s • Last updated: %2$s</string>
+    <string name="stale_data_banner_age_unknown">Unknown</string>
+    <string name="stale_data_banner_last_updated_unknown">Unknown</string>
+    <string name="list_shimmer_loading_content_description">Loading list data</string>
+</resources>

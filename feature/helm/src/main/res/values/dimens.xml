@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="helm_screen_padding">16dp</dimen>
+    <dimen name="helm_list_item_padding">12dp</dimen>
+    <dimen name="helm_content_spacing">8dp</dimen>
+    <dimen name="helm_badge_horizontal_padding">8dp</dimen>
+    <dimen name="helm_badge_vertical_padding">4dp</dimen>
+    <dimen name="helm_rollback_list_max_height">320dp</dimen>
+</resources>

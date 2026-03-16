@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="events_screen_horizontal_padding">16dp</dimen>
+    <dimen name="events_screen_vertical_padding">12dp</dimen>
+    <dimen name="events_screen_section_spacing">12dp</dimen>
+    <dimen name="events_filter_chip_spacing">8dp</dimen>
+    <dimen name="events_row_padding">12dp</dimen>
+    <dimen name="events_row_spacing">8dp</dimen>
+    <dimen name="events_row_icon_size">18dp</dimen>
+</resources>

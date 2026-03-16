@@ -1,0 +1,30 @@
+# Ignore Kotlin plugin data
+.kotlin
+
+
+# Android
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+
+# Secrets — never commit these
+local.properties
+keystore.jks
+*.keystore
+*.jks
+
+
+# Kotlin
+*.class
+*.hprof
+
+keys/

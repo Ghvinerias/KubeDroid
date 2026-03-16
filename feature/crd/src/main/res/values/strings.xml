@@ -1,0 +1,49 @@
+<resources>
+    <string name="crd_list_title">Custom Resource Definitions</string>
+    <string name="crd_list_refresh_cd">Refresh custom resource definitions</string>
+    <string name="crd_list_clear_search_cd">Clear CRD search</string>
+    <string name="crd_list_search_placeholder">Search by name, kind, or group</string>
+    <string name="crd_list_empty">No CRDs found</string>
+    <string name="crd_list_error">Unable to load CRDs</string>
+    <string name="crd_list_retry">Retry</string>
+    <string name="crd_list_favourites_header">Favourite CRDs</string>
+    <string name="crd_list_all_header">All CRDs</string>
+    <string name="crd_list_item_subtitle">%1$s • %2$s • %3$s/%4$s</string>
+    <string name="crd_list_favourite_cd">Add to favourites</string>
+    <string name="crd_list_unfavourite_cd">Remove from favourites</string>
+
+    <string name="crd_resources_title">Custom Resources</string>
+    <string name="crd_resources_title_format">%1$s resources</string>
+    <string name="crd_resources_refresh_cd">Refresh custom resources</string>
+    <string name="crd_resources_namespace_label">Namespace</string>
+    <string name="crd_resources_namespace_placeholder">default</string>
+    <string name="crd_resources_empty">No custom resources found</string>
+    <string name="crd_resources_error">Unable to load custom resources</string>
+    <string name="crd_resources_retry">Retry</string>
+
+    <string name="crd_detail_title">Custom Resource</string>
+    <string name="crd_detail_title_format">%1$s/%2$s</string>
+    <string name="crd_detail_back_cd">Back</string>
+    <string name="crd_detail_edit_cd">Edit YAML</string>
+    <string name="crd_detail_cancel_edit">Cancel</string>
+    <string name="crd_detail_apply_action">Apply</string>
+    <string name="crd_detail_error">Unable to load custom resource</string>
+    <string name="crd_detail_retry">Retry</string>
+    <string name="crd_detail_cluster_scoped">cluster-scoped</string>
+    <string name="crd_detail_namespace_format">Namespace: %1$s</string>
+    <string name="crd_detail_api_version_format">API: %1$s</string>
+    <string name="crd_detail_yaml_label">YAML</string>
+    <string name="crd_detail_yaml_empty">No YAML content available</string>
+    <string name="crd_detail_apply_in_progress">Applying YAML changes…</string>
+    <string name="crd_detail_apply_error">Failed to apply YAML</string>
+    <string name="crd_detail_apply_success">YAML applied</string>
+    <string name="crd_detail_apply_success_with_version">YAML applied (resourceVersion: %1$s)</string>
+    <string name="crd_detail_apply_no_changes">No YAML changes detected</string>
+    <string name="crd_detail_apply_conflict">Resource changed on server; refresh and retry</string>
+    <string name="crd_detail_apply_conflict_with_version">Conflict (current resourceVersion: %1$s)</string>
+
+    <string name="crd_detail_unknown_confirm_title">Unknown CRD Type</string>
+    <string name="crd_detail_unknown_confirm_message">This CRD type is not in the known-safe list. Editing and applying YAML may be unsafe. Continue anyway?</string>
+    <string name="crd_detail_unknown_confirm_continue">Continue</string>
+    <string name="crd_detail_unknown_confirm_cancel">Cancel</string>
+</resources>

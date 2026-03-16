@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">KubeDroid</string>
+    <string name="nav_clusters">Clusters</string>
+    <string name="nav_pods">Pods</string>
+    <string name="nav_crds">CRDs</string>
+    <string name="nav_deployments">Deployments</string>
+    <string name="nav_events">Events</string>
+    <string name="nav_helm">Helm</string>
+    <string name="nav_nodes">Nodes</string>
+    <string name="nav_network">Network</string>
+    <string name="nav_rbac">RBAC</string>
+    <string name="nav_storage">Storage</string>
+    <string name="nav_settings">Settings</string>
+    <string name="open_side_menu">Open side menu</string>
+    <string name="close_side_menu">Close side menu</string>
+    <string name="deploy_manifest_title">Deploy YAML</string>
+    <string name="deploy_manifest_action">Deploy</string>
+    <string name="two_pane_select_resource">Select a resource to view details.</string>
+    <string name="two_pane_select_deployment">Select a deployment to view details.</string>
+    <string name="two_pane_select_node">Select a node to view details.</string>
+    <string name="dex_shortcuts_title">Keyboard shortcuts</string>
+    <string name="dex_shortcut_describe">d - describe</string>
+    <string name="dex_shortcut_logs">l - logs</string>
+    <string name="dex_shortcut_edit">e - edit</string>
+    <string name="dex_shortcut_shell">s - shell</string>
+    <string name="dex_shortcut_refresh">r - refresh</string>
+    <string name="dex_shortcut_help">\? - help</string>
+</resources>

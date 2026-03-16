@@ -1,0 +1,32 @@
+<resources>
+    <dimen name="resource_detail_screen_padding">16dp</dimen>
+    <dimen name="resource_detail_content_spacing">12dp</dimen>
+    <dimen name="resource_detail_tab_content_padding">12dp</dimen>
+
+    <dimen name="resource_detail_yaml_row_padding">4dp</dimen>
+    <dimen name="resource_detail_yaml_row_spacing">8dp</dimen>
+    <dimen name="resource_detail_yaml_line_number_width">36dp</dimen>
+    <dimen name="resource_detail_yaml_corner_radius">12dp</dimen>
+
+    <dimen name="resource_detail_describe_row_spacing">12dp</dimen>
+
+    <dimen name="resource_detail_event_spacing">8dp</dimen>
+    <dimen name="resource_detail_event_card_padding">12dp</dimen>
+    <dimen name="resource_detail_event_row_spacing">6dp</dimen>
+
+    <dimen name="stale_data_banner_corner_radius">12dp</dimen>
+    <dimen name="stale_data_banner_vertical_padding">10dp</dimen>
+    <dimen name="stale_data_banner_horizontal_padding">12dp</dimen>
+    <dimen name="stale_data_banner_content_spacing">4dp</dimen>
+
+    <dimen name="list_shimmer_section_spacing">8dp</dimen>
+    <dimen name="list_shimmer_item_spacing">8dp</dimen>
+    <dimen name="list_shimmer_title_height">20dp</dimen>
+    <dimen name="list_shimmer_subtitle_height">14dp</dimen>
+    <dimen name="list_shimmer_subtitle_width">120dp</dimen>
+    <dimen name="list_shimmer_chip_height">24dp</dimen>
+    <dimen name="list_shimmer_chip_width">72dp</dimen>
+    <dimen name="list_shimmer_divider_height">1dp</dimen>
+    <dimen name="list_shimmer_item_vertical_padding">8dp</dimen>
+    <dimen name="list_shimmer_shape_radius">8dp</dimen>
+</resources>

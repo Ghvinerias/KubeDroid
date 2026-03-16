@@ -1,0 +1,63 @@
+<resources>
+    <string name="storage_title">Storage</string>
+    <string name="storage_refresh_cd">Refresh storage</string>
+    <string name="storage_back_cd">Go back</string>
+
+    <string name="storage_tab_pvcs">PVCs</string>
+    <string name="storage_tab_pvs">PVs</string>
+    <string name="storage_tab_classes">StorageClasses</string>
+    <string name="storage_tab_config_maps">ConfigMaps</string>
+    <string name="storage_tab_secrets">Secrets</string>
+
+    <string name="storage_load_error">Failed to load storage resources</string>
+    <string name="storage_unavailable">Unavailable</string>
+
+    <string name="storage_pvc_namespace_label">PVC Namespace</string>
+    <string name="storage_pvc_empty">No persistent volume claims found</string>
+    <string name="storage_pvc_bound">Bound</string>
+    <string name="storage_pvc_unbound">Unbound</string>
+    <string name="storage_pvc_capacity">Capacity: %1$s</string>
+    <string name="storage_pvc_access_mode">Access mode: %1$s</string>
+    <string name="storage_pvc_storage_class">StorageClass: %1$s</string>
+
+    <string name="storage_pv_empty">No persistent volumes found</string>
+    <string name="storage_pv_capacity">Capacity: %1$s</string>
+    <string name="storage_pv_reclaim_policy">Reclaim policy: %1$s</string>
+    <string name="storage_pv_status">Status: %1$s</string>
+
+    <string name="storage_class_empty">No storage classes found</string>
+    <string name="storage_class_provisioner">Provisioner: %1$s</string>
+    <string name="storage_class_reclaim_policy">Reclaim policy: %1$s</string>
+    <string name="storage_class_binding_mode">Volume binding mode: %1$s</string>
+
+    <string name="storage_config_map_namespace_label">ConfigMap Namespace</string>
+    <string name="storage_config_map_empty">No ConfigMaps found</string>
+    <string name="storage_config_map_key_count">Keys: %1$d</string>
+    <string name="storage_config_map_age">Age: %1$s</string>
+    <string name="storage_config_map_save">Save</string>
+    <string name="storage_config_map_saving">Saving...</string>
+
+    <string name="storage_secret_namespace_label">Secret Namespace</string>
+    <string name="storage_secret_empty">No Secrets found</string>
+    <string name="storage_secret_type">Type: %1$s</string>
+    <string name="storage_secret_key_count">Keys: %1$d</string>
+    <string name="storage_secret_value_masked">••••••</string>
+    <string name="storage_secret_reveal">Reveal</string>
+    <string name="storage_secret_hide">Hide</string>
+    <string name="storage_secret_copy_cd">Copy secret value</string>
+    <string name="storage_secret_biometric_prompt_title">Reveal Secret</string>
+    <string name="storage_secret_biometric_subtitle">Authenticate to view secret value</string>
+    <string name="storage_secret_biometric_cancel">Cancel</string>
+    <string name="storage_secret_auto_hide_countdown">Auto-hide in %1$d s</string>
+
+    <string name="storage_detail_namespace">Namespace: %1$s</string>
+    <string name="storage_detail_bound_pv">Bound PV: %1$s</string>
+    <string name="storage_detail_access_modes">Access modes: %1$s</string>
+    <string name="storage_detail_events_title">Events</string>
+    <string name="storage_detail_events_empty">No events for this claim</string>
+
+    <string name="storage_event_type">Type: %1$s</string>
+    <string name="storage_event_warning">Warning</string>
+    <string name="storage_event_normal">Normal</string>
+    <string name="storage_event_last_timestamp">Last timestamp: %1$s</string>
+</resources>

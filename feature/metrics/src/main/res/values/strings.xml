@@ -1,0 +1,17 @@
+<resources>
+    <string name="metrics_graph_cpu_title">CPU Usage</string>
+    <string name="metrics_graph_memory_title">Memory Usage</string>
+    <string name="metrics_graph_empty">No metrics available</string>
+    <string name="metrics_graph_loading">Loading metrics</string>
+    <string name="metrics_server_unavailable">Metrics Server is unavailable</string>
+
+    <string name="metrics_chip_cpu">CPU</string>
+    <string name="metrics_chip_memory">Memory</string>
+    <string name="metrics_compact_empty">-</string>
+    <string name="metrics_value_unavailable">N/A</string>
+    <string name="metrics_cpu_millicores_value">%1$dm</string>
+    <string name="metrics_memory_mebibytes_value">%1$d MiB</string>
+    <string name="metrics_percent_value">%.1f%%</string>
+
+    <string name="metrics_quota_usage_value">%1$s / %2$s</string>
+</resources>

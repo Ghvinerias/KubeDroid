@@ -1,0 +1,66 @@
+<resources>
+    <string name="resource_detail_title">Resource Details</string>
+    <string name="resource_detail_title_format">%1$s/%2$s</string>
+    <string name="resource_detail_back_cd">Back</string>
+    <string name="resource_detail_edit_yaml_cd">Edit YAML</string>
+    <string name="resource_detail_logs_cd">Open pod logs</string>
+    <string name="resource_detail_exec_cd">Open exec terminal</string>
+    <string name="resource_detail_port_forward_cd">Open port forward</string>
+    <string name="resource_detail_not_found">Resource not found</string>
+    <string name="resource_detail_error">Unable to load resource details</string>
+    <string name="resource_detail_retry">Retry</string>
+    <string name="resource_detail_shortcuts_title">Keyboard shortcuts</string>
+    <string name="resource_detail_shortcuts_close">Close</string>
+    <string name="resource_detail_shortcut_describe">d - describe</string>
+    <string name="resource_detail_shortcut_logs">l - logs</string>
+    <string name="resource_detail_shortcut_edit">e - edit</string>
+    <string name="resource_detail_shortcut_shell">s - shell</string>
+    <string name="resource_detail_shortcut_refresh">r - refresh</string>
+    <string name="resource_detail_shortcut_help">\? - help</string>
+
+    <string name="resource_detail_tab_yaml">YAML</string>
+    <string name="resource_detail_tab_describe">Describe</string>
+    <string name="resource_detail_tab_events">Events</string>
+
+    <string name="yaml_viewer_empty">No YAML available for this resource</string>
+
+    <string name="describe_label_kind">Kind</string>
+    <string name="describe_label_name">Name</string>
+    <string name="describe_label_namespace">Namespace</string>
+    <string name="describe_label_api_version">API Version</string>
+    <string name="describe_label_resource_version">Resource Version</string>
+    <string name="describe_label_yaml_size">YAML Size</string>
+    <string name="describe_namespace_cluster_scoped">Cluster-scoped</string>
+    <string name="describe_value_unknown">Unknown</string>
+    <string name="describe_yaml_size_value">%1$d lines - %2$d chars</string>
+    <string name="describe_note">Describe is a structured summary of key resource metadata.</string>
+
+    <string name="events_empty">No events found for this resource</string>
+    <string name="events_reason_unknown">Unknown reason</string>
+    <string name="events_type_unknown">Normal</string>
+    <string name="events_source_unknown">Unknown source</string>
+    <string name="events_title">%1$s - %2$s</string>
+    <string name="events_source">Source: %1$s</string>
+    <string name="events_count">Count: %1$d</string>
+    <string name="events_first_seen">First seen: %1$s</string>
+    <string name="events_last_seen">Last seen: %1$s</string>
+    <string name="events_time_unknown">Unknown</string>
+
+    <string name="yaml_editor_title">Edit YAML</string>
+    <string name="yaml_editor_apply_action">Apply</string>
+    <string name="yaml_editor_field_label">YAML Manifest</string>
+    <string name="yaml_editor_placeholder">apiVersion: v1</string>
+    <string name="yaml_editor_applying">Applying YAML changes...</string>
+    <string name="yaml_editor_error_generic">Failed to apply YAML</string>
+    <string name="yaml_editor_result_applied">YAML applied successfully</string>
+    <string name="yaml_editor_result_applied_with_version">YAML applied. New resource version: %1$s</string>
+    <string name="yaml_editor_result_no_changes">No changes detected</string>
+    <string name="yaml_editor_result_conflict_unknown">Conflict detected. Refresh and retry.</string>
+    <string name="yaml_editor_result_conflict_with_version">Conflict detected. Current resource version: %1$s</string>
+
+    <string name="stale_data_banner_title">Showing cached data</string>
+    <string name="stale_data_banner_message">Age: %1$s • Last updated: %2$s</string>
+    <string name="stale_data_banner_age_unknown">Unknown</string>
+    <string name="stale_data_banner_last_updated_unknown">Unknown</string>
+    <string name="list_shimmer_loading_content_description">Loading list data</string>
+</resources>

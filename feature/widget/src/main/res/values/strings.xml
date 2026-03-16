@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_provider_name">KubeDroid Widget</string>
+    <string name="widget_provider_description">Monitor cluster health from your home screen.</string>
+    <string name="widget_cluster_not_selected">Select a cluster</string>
+    <string name="widget_cluster_placeholder">Cluster</string>
+    <string name="widget_pod_count">Pods: %1$d</string>
+    <string name="widget_pod_count_placeholder">Pods: 0</string>
+    <string name="widget_warning_badge">%1$d warnings</string>
+    <string name="widget_warning_badge_placeholder">1 warning</string>
+    <string name="widget_last_updated">Updated %1$s</string>
+    <string name="widget_last_updated_unknown">Updated just now</string>
+    <string name="widget_last_updated_placeholder">Updated --:--</string>
+    <string name="widget_health_dot">●</string>
+
+    <string name="widget_config_cluster_title">Cluster for this widget</string>
+    <string name="widget_config_no_clusters">No configured clusters available.</string>
+    <string name="widget_select_cluster_required">Select a cluster before saving.</string>
+
+    <string name="widget_notification_settings_title">Notification settings</string>
+    <string name="widget_notification_type_header">Notification types</string>
+    <string name="widget_notification_type_crash_loop">CrashLoopBackOff alerts</string>
+    <string name="widget_notification_type_node_not_ready">Node not ready alerts</string>
+    <string name="widget_threshold_header">Thresholds</string>
+    <string name="widget_threshold_warning_count">Warning event threshold: %1$d</string>
+    <string name="widget_threshold_cpu">CPU alert threshold: %1$d%%</string>
+    <string name="widget_threshold_memory">Memory alert threshold: %1$d%%</string>
+    <string name="widget_refresh_interval_header">Refresh interval</string>
+    <string name="widget_refresh_interval">%1$d min</string>
+    <string name="widget_refresh_interval_selected">%1$d min selected</string>
+    <string name="widget_save_settings">Save widget settings</string>
+
+    <string name="widget_notification_channel_name">Cluster Alerts: %1$s</string>
+    <string name="widget_notification_channel_description">KubeDroid widget alerts for %1$s</string>
+
+    <string name="widget_notification_title_warning">Warning threshold reached</string>
+    <string name="widget_notification_title_health">Cluster health degraded</string>
+    <string name="widget_notification_title_node">Node availability changed</string>
+
+    <string name="widget_notification_content_warning">%1$s has %2$d warnings (threshold: %3$d).</string>
+    <string name="widget_notification_content_health">%1$s changed health state to %2$s.</string>
+    <string name="widget_notification_content_node">%1$s may have a node issue (state: %2$s).</string>
+</resources>

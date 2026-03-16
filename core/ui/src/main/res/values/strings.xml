@@ -1,0 +1,12 @@
+<resources>
+    <string name="namespace_selector_switch_namespace">Switch namespace</string>
+    <string name="namespace_selector_all_namespaces">All Namespaces</string>
+    <string name="app_lock_logo_content_description">KubeDroid logo</string>
+    <string name="app_lock_unlock_button">Unlock with Biometrics</string>
+    <string name="app_lock_prompt_title">Unlock KubeDroid</string>
+    <string name="app_lock_prompt_subtitle">Biometric authentication required</string>
+    <string name="app_lock_prompt_cancel">Cancel</string>
+    <string name="app_lock_error_failed">Biometric authentication failed. Try again.</string>
+    <string name="app_lock_error_unavailable">Biometric authentication is unavailable on this device.</string>
+    <string name="app_lock_error_unavailable_context">Unable to start biometric authentication right now.</string>
+</resources>

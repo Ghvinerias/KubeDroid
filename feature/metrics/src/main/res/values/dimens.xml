@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="metrics_screen_padding">16dp</dimen>
+    <dimen name="metrics_card_padding">16dp</dimen>
+    <dimen name="metrics_section_spacing">12dp</dimen>
+    <dimen name="metrics_chart_height">220dp</dimen>
+    <dimen name="metrics_compact_chip_padding">8dp</dimen>
+    <dimen name="metrics_compact_spacing">8dp</dimen>
+    <dimen name="metrics_sparkline_width">56dp</dimen>
+    <dimen name="metrics_sparkline_height">20dp</dimen>
+    <dimen name="metrics_bar_spacing">4dp</dimen>
+</resources>

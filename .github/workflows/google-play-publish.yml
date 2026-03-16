@@ -1,0 +1,86 @@
+name: Publish Android App Bundle to Google Play
+
+on:
+  workflow_dispatch:
+    inputs:
+      track:
+        description: "Play track (internal, alpha, beta, production)"
+        required: true
+        default: "internal"
+        type: choice
+        options:
+          - internal
+          - alpha
+          - beta
+          - production
+      release_status:
+        description: "Release status for the uploaded artifact"
+        required: true
+        default: "draft"
+        type: choice
+        options:
+          - draft
+          - inProgress
+          - halted
+          - completed
+
+permissions:
+  contents: read
+
+jobs:
+  bundle-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Restore upload keystore
+        shell: bash
+        run: |
+          if [ -z "${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}" ]; then
+            echo "ANDROID_UPLOAD_KEYSTORE_BASE64 secret is missing"
+            exit 1
+          fi
+          echo "${{ secrets.ANDROID_UPLOAD_KEYSTORE_BASE64 }}" | base64 --decode > "$RUNNER_TEMP/upload-keystore.jks"
+
+      - name: Create Gradle signing properties
+        shell: bash
+        run: |
+          mkdir -p "$HOME/.gradle"
+          cat > "$HOME/.gradle/gradle.properties" <<EOF
+          KUBEDROID_STORE_FILE=$RUNNER_TEMP/upload-keystore.jks
+          KUBEDROID_STORE_PASSWORD=${{ secrets.KUBEDROID_STORE_PASSWORD }}
+          KUBEDROID_KEY_ALIAS=${{ secrets.KUBEDROID_KEY_ALIAS }}
+          KUBEDROID_KEY_PASSWORD=${{ secrets.KUBEDROID_KEY_PASSWORD }}
+          EOF
+
+      - name: Build release bundle
+        run: ./gradlew :app:bundleRelease --no-daemon
+
+      - name: Upload AAB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-release-aab
+          path: app/build/outputs/bundle/release/app-release.aab
+          if-no-files-found: error
+
+      - name: Publish to Google Play
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.PLAY_SERVICE_ACCOUNT_JSON }}
+          packageName: com.kubedroid.app
+          releaseFiles: app/build/outputs/bundle/release/app-release.aab
+          track: ${{ inputs.track }}
+          status: ${{ inputs.release_status }}
+          changesNotSentForReview: true

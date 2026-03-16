@@ -1,0 +1,12 @@
+<resources>
+    <string name="events_feed_title">Events</string>
+    <string name="events_refresh_cd">Refresh events</string>
+    <string name="events_empty">No events found</string>
+
+    <string name="events_filter_all_namespaces">All namespaces</string>
+    <string name="events_filter_type_all">All</string>
+    <string name="events_filter_type_warning">Warning</string>
+    <string name="events_filter_type_normal">Normal</string>
+    <string name="events_filter_search_label">Search events</string>
+    <string name="events_filter_search_placeholder">Object, reason, or message</string>
+</resources>

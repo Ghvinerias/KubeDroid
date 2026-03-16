@@ -1,0 +1,26 @@
+<resources>
+    <dimen name="resource_list_screen_padding">16dp</dimen>
+    <dimen name="resource_list_item_padding">8dp</dimen>
+    <dimen name="resource_list_content_spacing">12dp</dimen>
+    <dimen name="exec_screen_status_padding">16dp</dimen>
+    <dimen name="exec_screen_status_vertical_padding">12dp</dimen>
+    <dimen name="port_forward_screen_padding">16dp</dimen>
+    <dimen name="port_forward_item_padding">12dp</dimen>
+    <dimen name="port_forward_item_spacing">12dp</dimen>
+    <dimen name="port_forward_action_spacing">8dp</dimen>
+    <dimen name="port_forward_sheet_padding">16dp</dimen>
+    <dimen name="stale_data_banner_corner_radius">12dp</dimen>
+    <dimen name="stale_data_banner_vertical_padding">10dp</dimen>
+    <dimen name="stale_data_banner_horizontal_padding">12dp</dimen>
+    <dimen name="stale_data_banner_content_spacing">4dp</dimen>
+    <dimen name="list_shimmer_section_spacing">8dp</dimen>
+    <dimen name="list_shimmer_item_spacing">8dp</dimen>
+    <dimen name="list_shimmer_title_height">20dp</dimen>
+    <dimen name="list_shimmer_subtitle_height">14dp</dimen>
+    <dimen name="list_shimmer_subtitle_width">120dp</dimen>
+    <dimen name="list_shimmer_chip_height">24dp</dimen>
+    <dimen name="list_shimmer_chip_width">72dp</dimen>
+    <dimen name="list_shimmer_divider_height">1dp</dimen>
+    <dimen name="list_shimmer_item_vertical_padding">8dp</dimen>
+    <dimen name="list_shimmer_shape_radius">8dp</dimen>
+</resources>

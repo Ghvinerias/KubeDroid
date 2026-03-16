@@ -1,0 +1,40 @@
+<resources>
+    <string name="network_title">Networking</string>
+    <string name="network_refresh_cd">Refresh networking</string>
+    <string name="network_back_cd">Back</string>
+    <string name="network_namespace_label">Namespace</string>
+    <string name="network_tab_ingresses">Ingresses</string>
+    <string name="network_tab_policies">NetworkPolicies</string>
+
+    <string name="network_state_loading">Loading...</string>
+    <string name="network_state_empty_ingresses">No ingresses found</string>
+    <string name="network_state_empty_policies">No network policies found</string>
+    <string name="network_state_error">Unable to load networking resources</string>
+
+    <string name="network_ingress_host">Host: %1$s</string>
+    <string name="network_ingress_host_all">All hosts</string>
+    <string name="network_ingress_paths">Paths: %1$d</string>
+    <string name="network_ingress_tls">TLS</string>
+    <string name="network_ingress_no_tls">No TLS</string>
+    <string name="network_ingress_copy_url">Copy URL</string>
+    <string name="network_ingress_copy_url_cd">Copy ingress URL</string>
+
+    <string name="network_policy_selector">Selector: %1$s</string>
+    <string name="network_policy_selector_all">All pods</string>
+    <string name="network_policy_allow">Allow</string>
+    <string name="network_policy_deny">Deny</string>
+
+    <string name="network_detail_title">Ingress %1$s</string>
+    <string name="network_detail_routes_title">Routing</string>
+    <string name="network_detail_empty">No host/path routes available</string>
+    <string name="network_detail_host_label">Host</string>
+    <string name="network_detail_path_label">Path</string>
+    <string name="network_detail_service_label">Service</string>
+    <string name="network_detail_port_label">Port</string>
+    <string name="network_detail_host_value">- %1$s: %2$s</string>
+    <string name="network_detail_path_value">- %1$s: %2$s</string>
+    <string name="network_detail_service_value">%1$s: %2$s</string>
+    <string name="network_detail_port_value">%1$s: %2$s</string>
+    <string name="network_detail_service_unknown">Unknown service</string>
+    <string name="network_detail_port_unknown">Unknown</string>
+</resources>

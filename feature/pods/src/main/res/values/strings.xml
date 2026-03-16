@@ -1,0 +1,69 @@
+<resources>
+    <string name="log_viewer_title">Pod Logs</string>
+    <string name="log_viewer_back_cd">Back</string>
+    <string name="log_viewer_stop_cd">Stop log stream</string>
+    <string name="log_viewer_retry_cd">Retry log stream</string>
+    <string name="log_viewer_share_cd">Share logs</string>
+    <string name="log_viewer_share_title">Share pod logs</string>
+    <string name="log_viewer_empty">No logs available</string>
+    <string name="log_viewer_error_generic">Unable to load pod logs</string>
+    <string name="log_viewer_container_all">All</string>
+    <string name="log_viewer_follow_toggle">Follow</string>
+    <string name="log_viewer_timestamps_toggle">Timestamps</string>
+    <string name="log_viewer_search_hint">Search logs</string>
+    <string name="log_viewer_search_clear_cd">Clear search query</string>
+
+    <string name="resource_list_title">Resources</string>
+    <string name="resource_list_refresh_cd">Refresh resources</string>
+    <string name="resource_list_retry">Retry</string>
+    <string name="resource_list_empty">No resources found</string>
+    <string name="resource_list_error">Unable to load resources</string>
+    <string name="resource_list_switch_namespace">Switch namespace</string>
+    <string name="resource_list_all_namespaces">All namespaces</string>
+    <string name="resource_list_item_subtitle">%1$s • %2$s</string>
+
+    <string name="resource_status_healthy">Healthy</string>
+    <string name="resource_status_warning">Warning</string>
+    <string name="resource_status_error">Error</string>
+    <string name="resource_status_unknown">Unknown</string>
+
+    <string name="exec_screen_title">Pod Exec</string>
+    <string name="exec_screen_back_cd">Back</string>
+    <string name="exec_screen_disconnect_cd">Disconnect exec session</string>
+    <string name="exec_screen_state_idle">Idle</string>
+    <string name="exec_screen_state_connecting">Connecting...</string>
+    <string name="exec_screen_state_active">Connected</string>
+    <string name="exec_screen_state_exited">Session exited with code %1$d</string>
+    <string name="exec_screen_state_error">Error: %1$s</string>
+    <string name="exec_screen_state_error_unknown">Unknown error</string>
+
+    <string name="port_forward_title">Port Forward</string>
+    <string name="port_forward_back_cd">Back</string>
+    <string name="port_forward_start_cd">Start port forward</string>
+    <string name="port_forward_empty">No active port-forward sessions</string>
+    <string name="port_forward_close_session_cd">Close session</string>
+    <string name="port_forward_session_subtitle">%1$s • %2$d -&gt; %3$d</string>
+    <string name="port_forward_local_url_template">http://127.0.0.1:%1$d</string>
+    <string name="port_forward_copy_url">Copy URL</string>
+    <string name="port_forward_open_in_browser">Open in Browser</string>
+    <string name="port_forward_session_status_starting">Starting</string>
+    <string name="port_forward_session_status_active">Active</string>
+    <string name="port_forward_session_status_failed">Failed</string>
+    <string name="port_forward_session_status_closed">Closed</string>
+    <string name="port_forward_sheet_title">Start Port Forward</string>
+    <string name="port_forward_sheet_pod_label">Pod</string>
+    <string name="port_forward_sheet_pod_placeholder">Select a pod</string>
+    <string name="port_forward_sheet_remote_port_label">Remote port</string>
+    <string name="port_forward_sheet_remote_port_required">Required, 1-65535</string>
+    <string name="port_forward_sheet_local_port_label">Local port</string>
+    <string name="port_forward_sheet_local_port_supporting">Optional, 0 for auto-assign</string>
+    <string name="port_forward_sheet_port_invalid">Invalid port</string>
+    <string name="port_forward_sheet_cancel">Cancel</string>
+    <string name="port_forward_sheet_start">Start</string>
+
+    <string name="stale_data_banner_title">Showing cached data</string>
+    <string name="stale_data_banner_message">Age: %1$s • Last updated: %2$s</string>
+    <string name="stale_data_banner_age_unknown">Unknown</string>
+    <string name="stale_data_banner_last_updated_unknown">Unknown</string>
+    <string name="list_shimmer_loading_content_description">Loading list data</string>
+</resources>

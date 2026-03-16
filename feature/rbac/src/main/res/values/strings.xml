@@ -1,0 +1,35 @@
+<resources>
+    <string name="rbac_title">RBAC</string>
+    <string name="rbac_tab_roles">Roles</string>
+    <string name="rbac_tab_bindings">Bindings</string>
+    <string name="rbac_tab_can_i">Can-I checker</string>
+
+    <string name="rbac_namespace_label">Namespace</string>
+    <string name="rbac_cluster_scope">Cluster</string>
+
+    <string name="rbac_roles_empty">No roles found for the selected namespace.</string>
+    <string name="rbac_bindings_empty">No bindings found for the selected namespace.</string>
+
+    <string name="rbac_role_namespace">Namespace: %1$s</string>
+    <string name="rbac_role_rule_count">Rules: %1$d</string>
+    <string name="rbac_danger_badge">Dangerous</string>
+
+    <string name="rbac_binding_role_ref">RoleRef: %1$s</string>
+    <string name="rbac_binding_subject_count">Subjects: %1$d</string>
+    <string name="rbac_binding_namespace">Namespace: %1$s</string>
+
+    <string name="rbac_can_i_resource_label">Resource</string>
+    <string name="rbac_can_i_resource_placeholder">pods</string>
+    <string name="rbac_can_i_verb_label">Verb</string>
+    <string name="rbac_can_i_namespace_label">Scope</string>
+    <string name="rbac_can_i_check_button">Check access</string>
+
+    <string name="rbac_can_i_result_allowed">Allowed</string>
+    <string name="rbac_can_i_result_denied">Denied</string>
+    <string name="rbac_can_i_result_unknown">Unknown</string>
+    <string name="rbac_can_i_result_missing_input">Provide resource, verb, and namespace before checking access.</string>
+
+    <string name="rbac_can_i_explanation_allowed">The current identity can %1$s %2$s in %3$s.</string>
+    <string name="rbac_can_i_explanation_denied">The current identity cannot %1$s %2$s in %3$s.</string>
+    <string name="rbac_can_i_explanation_unknown">The API server did not return a definitive authorization result.</string>
+</resources>

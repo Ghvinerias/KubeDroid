@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="crd_screen_padding">16dp</dimen>
+    <dimen name="crd_section_spacing">12dp</dimen>
+    <dimen name="crd_row_padding">8dp</dimen>
+    <dimen name="crd_section_header_padding">6dp</dimen>
+    <dimen name="crd_status_card_padding">12dp</dimen>
+    <dimen name="crd_yaml_row_padding">8dp</dimen>
+</resources>

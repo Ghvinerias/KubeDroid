@@ -1,0 +1,91 @@
+<resources>
+    <string name="nodes_list_title">Nodes</string>
+    <string name="nodes_list_refresh_cd">Refresh nodes</string>
+    <string name="nodes_list_empty">No nodes found</string>
+    <string name="nodes_list_error">Unable to load nodes</string>
+    <string name="nodes_list_roles">Roles: %1$s</string>
+    <string name="nodes_list_role_worker">worker</string>
+    <string name="nodes_status_ready">Ready</string>
+    <string name="nodes_status_not_ready">Not Ready</string>
+    <string name="nodes_status_unschedulable">Unschedulable</string>
+    <string name="nodes_cpu_label">CPU</string>
+    <string name="nodes_memory_label">Memory</string>
+    <string name="nodes_metric_unavailable">N/A</string>
+    <string name="nodes_metric_percent_value">%.1f%%</string>
+
+    <string name="node_detail_title">Node %1$s</string>
+    <string name="node_detail_back_cd">Back</string>
+    <string name="node_detail_tab_info">Info</string>
+    <string name="node_detail_tab_conditions">Conditions</string>
+    <string name="node_detail_tab_pods">Pods</string>
+    <string name="node_detail_error">Unable to load node details</string>
+    <string name="node_detail_not_found">Node not found</string>
+
+    <string name="node_info_name">Name</string>
+    <string name="node_info_roles">Roles</string>
+    <string name="node_info_ready">Ready</string>
+    <string name="node_info_schedulable">Schedulable</string>
+    <string name="node_info_kubelet">Kubelet</string>
+    <string name="node_info_internal_ip">Internal IP</string>
+    <string name="node_info_external_ip">External IP</string>
+    <string name="node_schedulable_yes">Yes</string>
+    <string name="node_schedulable_no">No</string>
+    <string name="node_value_unknown">Unknown</string>
+
+    <string name="node_conditions_empty">No conditions available</string>
+    <string name="node_condition_status">Status: %1$s</string>
+    <string name="node_condition_reason">Reason: %1$s</string>
+    <string name="node_condition_last_transition">Last transition: %1$s</string>
+
+    <string name="node_action_cordon">Cordon</string>
+    <string name="node_action_uncordon">Uncordon</string>
+    <string name="node_action_drain">Drain</string>
+
+    <string name="node_confirm_cordon_title">Cordon node?</string>
+    <string name="node_confirm_cordon_body">Mark %1$s as unschedulable.</string>
+    <string name="node_confirm_uncordon_title">Uncordon node?</string>
+    <string name="node_confirm_uncordon_body">Mark %1$s as schedulable.</string>
+    <string name="node_confirm_drain_title">Drain node?</string>
+    <string name="node_confirm_drain_body">Evict drainable pods from %1$s.</string>
+    <string name="node_confirm_action_confirm">Confirm</string>
+    <string name="node_confirm_action_cancel">Cancel</string>
+
+    <string name="node_action_cordon_success">Node cordoned</string>
+    <string name="node_action_uncordon_success">Node uncordoned</string>
+    <string name="node_action_drain_success">Node drained</string>
+    <string name="node_action_cordon_not_found">Node not found for cordon</string>
+    <string name="node_action_cordon_forbidden">Not allowed to cordon node</string>
+    <string name="node_action_cordon_conflict">Cordon conflict, retry</string>
+    <string name="node_action_uncordon_not_found">Node not found for uncordon</string>
+    <string name="node_action_uncordon_forbidden">Not allowed to uncordon node</string>
+    <string name="node_action_uncordon_conflict">Uncordon conflict, retry</string>
+    <string name="node_action_drain_not_found">Node not found for drain</string>
+    <string name="node_action_drain_forbidden">Not allowed to drain node</string>
+    <string name="node_action_drain_conflict">Drain conflict, retry</string>
+    <string name="node_action_generic_failure">Node action failed</string>
+
+    <string name="node_drain_progress_title">Draining %1$s</string>
+    <string name="node_drain_progress_counter">Evicted %1$d/%2$d pods</string>
+    <string name="node_drain_progress_close">Close</string>
+    <string name="node_drain_progress_running">Running...</string>
+    <string name="node_drain_event_started">Drain started</string>
+    <string name="node_drain_event_eviction_attempt">Evicting %1$s/%2$s (attempt %3$d)</string>
+    <string name="node_drain_event_waiting_pdb">Waiting on PDB for %1$s/%2$s (attempt %3$d, retry in %4$ds)</string>
+    <string name="node_drain_event_pod_evicted">Evicted %1$s/%2$s</string>
+    <string name="node_drain_event_completed_success">Drain completed successfully</string>
+    <string name="node_drain_event_completed_not_found">Drain failed: node not found</string>
+    <string name="node_drain_event_completed_forbidden">Drain failed: forbidden</string>
+    <string name="node_drain_event_completed_conflict">Drain failed: conflict</string>
+    <string name="node_drain_event_completed_failure">Drain failed</string>
+
+    <string name="node_pods_empty_hint">Pod list is shown from latest drain activity.</string>
+    <string name="node_pods_item">%1$s/%2$s - %3$s</string>
+    <string name="node_pods_state_eviction_attempt">Eviction Attempt</string>
+    <string name="node_pods_state_waiting_pdb">Waiting on PDB</string>
+    <string name="node_pods_state_evicted">Evicted</string>
+    <string name="stale_data_banner_title">Showing cached data</string>
+    <string name="stale_data_banner_message">Age: %1$s • Last updated: %2$s</string>
+    <string name="stale_data_banner_age_unknown">Unknown</string>
+    <string name="stale_data_banner_last_updated_unknown">Unknown</string>
+    <string name="list_shimmer_loading_content_description">Loading list data</string>
+</resources>
