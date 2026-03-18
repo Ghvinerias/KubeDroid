@@ -94,4 +94,4 @@ jobs:
           releaseFiles: app/build/outputs/bundle/release/app-release.aab
           track: ${{ inputs.track }}
           status: ${{ inputs.release_status }}
-          changesNotSentForReview: true
+            #changesNotSentForReview: true
